@@ -1,0 +1,54 @@
+body{background-color: white;}
+
+.navbar{
+	position: relative;
+	float: left;
+	padding: 3px 10px;
+	margin-top: 3px;
+	margin-right: 15px;
+	margin-bottom: 3px;
+	background-color: transparent;
+	border: 1px solid transparent;
+	font-size: 20px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+		
+	background-color: gray;   }
+
+header{background-color: gray;height: 60px;border: 3px solid;}
+.ourmenu{text-align: center; font-size: 20px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+#navbarNav{text-align: center;}
+li{border: solid 1px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+ul{border: solid 2px;}
+.container-xs{text-align: center;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+.container-sm{text-align: center;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+.container-md{text-align: center;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+.container-lg{text-align: center;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+
+@media (min-width: 0px)  and  (max-width: 575px){.container-xs {background-color: gray; height: 1000px; width: 85%; margin-left: 26px}
+.container-md{display: none;}
+	.container-lg{display: none;}
+	.container-sm{display: none;}
+
+}
+@media (min-width: 576px)  and  (max-width: 767px) {.container-sm {background-color: gray; height: 1000px;}
+	.container-md{display: none;}
+	.container-lg{display: none;}
+	.container-xs{display: none;}
+}
+
+@media (min-width: 768px)  and  (max-width: 991px)    { .container-md {background-color: grey; height: 1000px;}
+.container-lg{display: none;}
+.container-sm{display: none;}
+.container-xs{display: none;}
+.navbar-toggler{display: none;}
+#navbarNav{display: none;}
+}
+@media (min-width: 992px) { .container-lg {background-color: grey; height: 1000px;} 
+.container-sm{display: none;}
+.container-md{display: none;}
+.container-xs{display: none;}
+.navbar-toggler{display: none;}
+#navbarNav{display: none;}
+}
